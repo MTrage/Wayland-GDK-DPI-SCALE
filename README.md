@@ -29,10 +29,10 @@ please enter:
 
     ps -ef | grep "Xwayland" | grep -v "grep" | wc -l
     
-  0 as result is bad - it should be read here (https://wiki.archlinux.org/title/wayland#XWayland) to find a solution!
-  1 as result is great, you are on the right way, it gets warmer! °)
+#### 0 as result is bad - it should be read here (https://wiki.archlinux.org/title/wayland#XWayland) to find a solution!
+#### 1 as result is great, you are on the right way, it gets warmer! °)
 
-Now open the .bash_profile file with e.g. the following command
+### Now open the .bash_profile file with e.g. the following command
 
     nano ~/.bash_profile
 
@@ -40,8 +40,8 @@ and add the following line
 
     export GDK_BACKEND=x11
   
-close / log out / log in / done
-Now that an x11 environment is used with the help of Xwayland the scaling should have adjusted. 
+### close / log out / log in / done
+#### Now that an x11 environment is used with the help of Xwayland the scaling should have adjusted. 
 ### Note: Regarding Security: XWayland is an X Server, so it does not have the security features of Wayland!
 
 ## #2 With a script from me 4kDPI (https://github.com/MTrage/4kDPI)
